@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>CeaseR Cipher Tool </title>
+</head>
+<body>
+     <h2>Caesar Cipher 🔐</h2>
+
+    <textarea id="text" placeholder="Enter text"></textarea><br><br>
+    <input type="number" id="shift" placeholder="Shift value"><br><br>
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+
+   <h3>Result:</h3>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+
+</body>
+<style>
+body {
+    font-family: Arial;
+    text-align:center;
+    margin-top: 50px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+}
+</style>
+</html>
